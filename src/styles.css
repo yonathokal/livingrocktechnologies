@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: #f6f6f6;
+}
+
+section {
+  padding: 60px 12%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 12%;
+  background: #111827;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(135deg,#111827,#1f2937);
+  color: white;
+  padding: 120px 12%;
+}
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0,0,0,.08);
+}
