@@ -1,9 +1,9 @@
 const services = [
   "Website Development",
-  "Technical Support & IT Operations",
-  "Automation & System Integration",
+  "IT Support & Operations",
+  "Automation & Integration",
   "Networking & Infrastructure",
-  "Network Security & Hardening",
+  "Cybersecurity Solutions",
   "UI / UX Design",
   "Graphic Designing",
   "Social Media Management",
@@ -11,18 +11,33 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services">
-      <h2>Our Services</h2>
+    <section id="services" className="section bg-soft">
+      <div className="container">
 
-      <div className="card-grid">
-        {services.map((item,i) => (
-          <div className="card" key={i}>
-            <h3>{item}</h3>
-            <p>
-              Professional and reliable enterprise solutions tailored for businesses and startups.
-            </p>
-          </div>
-        ))}
+        <div className="section-head text-center">
+          <span className="hero-title"> Our Services </span>
+          <p className="section-subtitle">
+            Technology solutions designed to help you scale
+          </p>
+        </div>
+
+        <div className="row g-4 mt-4">
+          {services.map((item, i) => (
+            <div className="col-lg-3 col-md-6" key={i}>
+              <div className="service-card">
+                <h5>{item}</h5>
+                <p>
+                  Reliable and secure enterprise-level solutions
+                  designed for long-term growth.
+                </p>
+                <a href="#contact" className="btn-card">
+                  Learn More →
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );
