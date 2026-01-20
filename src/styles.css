@@ -26,7 +26,27 @@ a {
 
   --text-gray: #475569;
   --text-light: #E2E8F0;
+
+  --bs-font1:'Cinzel', serif;
+  --bs-font2:'Hedvig Letters Serif', serif;
+  --bs-font3:'Montserrat', sans-serif;
+  --bs-font4:'Playfair Display', serif;  
 }
+
+.font1{
+  font-family: var(--bs-font1);
+}
+.font2{
+  font-family: var(--bs-font2);
+}
+.font3{
+  font-family: var(--bs-font3);
+}
+.font4{
+  font-family: var(--bs-font4);
+}
+
+
 
 /* HEADER / NAVBAR */
 
@@ -113,7 +133,7 @@ a {
   background-color: var(--soft-white);
 }
 
-/*  HERO SECTION */
+ /* HERO SECTION */
 
 .hero-section {
   min-height: 90vh;
@@ -136,9 +156,7 @@ a {
 }
 
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 3.6rem);
-  font-weight: 900;
-  line-height: 1.1;
+  font-weight: 900; 
 }
 
 .hero-subtitle {
@@ -184,7 +202,7 @@ a {
 .btn-outline-cta:hover {
   background: var(--pure-white);
   color: var(--deep-blue);
-}
+} 
 
 /* SERVICES */
 
@@ -216,7 +234,8 @@ a {
 
 .service-card:hover {
   transform: translateY(-12px);
-  box-shadow: 0 30px 55px rgba(0,0,0,0.18);
+  /* background: linear-gradient(360deg, var(--sky-cyan), var(--cyan-light)); */
+  box-shadow: 0 30px 55px rgba(0,0,0,0.30);
 }
 
 .service-card h5 {

@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./styles.css";
 
 import Header from './components/Header';
@@ -8,6 +11,14 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      // duration: 800,        // animation duration
+      // easing: "ease-in-out",
+       once: true,           // animate only once
+      // offset: 120,          // trigger position
+    });
+  }, []);
   return (
     <div >
       <Header/>

@@ -1,11 +1,11 @@
 export default function Header() {
   return (
-    <header className="site-header header">
+    <header className="site-header header" data-aos="fade-up" data-aos-duration="1500">
       <nav className="navbar navbar-expand-lg py-3">
         <div className="container">
           <a className="navbar-brand fs-md-3" href="#home">
-            <span className="d-md-none">L-R Technologies</span> 
-            <span className="d-none d-md-block">Living Rock Technologies </span>
+            <span className="d-md-none font1">L-R Technologies</span> 
+            <span className="d-none d-md-block font1">Living Rock Technologies </span>
           </a>
 
           <button
@@ -20,16 +20,16 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="mainNavbar">
             <ul className="navbar-nav ms-auto align-items-lg-center">
               <li className="nav-item">
-                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link font2" href="#home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#services">Services</a>
+                <a className="nav-link font2" href="#services">Services</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link font2" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-header-cta" href="#contact">
+                <a className="btn btn-header-cta font2" href="#contact">
                   Contact
                 </a>
               </li>

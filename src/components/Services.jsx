@@ -15,7 +15,7 @@ export default function Services() {
       <div className="container">
 
         <div className="section-head text-center">
-          <span className="hero-title"> Our Services </span>
+          <h2 className="hero-title fs-1 font1"> Our Services </h2>
           <p className="section-subtitle">
             Technology solutions designed to help you scale
           </p>
