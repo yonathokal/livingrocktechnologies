@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/livingrocktechnologies/static/css/main.69fea2f6.css",
-    "main.js": "/livingrocktechnologies/static/js/main.8a9e3495.js",
+    "main.css": "/livingrocktechnologies/static/css/main.eb37f912.css",
+    "main.js": "/livingrocktechnologies/static/js/main.9897c961.js",
+    "static/media/HeroLogo.png": "/livingrocktechnologies/static/media/HeroLogo.9c81dc3f9f7665c1b0a7.png",
     "index.html": "/livingrocktechnologies/index.html",
-    "main.69fea2f6.css.map": "/livingrocktechnologies/static/css/main.69fea2f6.css.map",
-    "main.8a9e3495.js.map": "/livingrocktechnologies/static/js/main.8a9e3495.js.map"
+    "main.eb37f912.css.map": "/livingrocktechnologies/static/css/main.eb37f912.css.map",
+    "main.9897c961.js.map": "/livingrocktechnologies/static/js/main.9897c961.js.map"
   },
   "entrypoints": [
-    "static/css/main.69fea2f6.css",
-    "static/js/main.8a9e3495.js"
+    "static/css/main.eb37f912.css",
+    "static/js/main.9897c961.js"
   ]
 }
