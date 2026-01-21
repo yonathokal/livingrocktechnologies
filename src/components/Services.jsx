@@ -11,21 +11,24 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="section bg-soft">
+    <section id="services" className="section bg-soft py-5">
       <div className="container">
 
-        <div className="section-head text-center">
-          <h2 className="hero-title fs-1 font1"> Our Services </h2>
-          <p className="section-subtitle">
+        <div className="text-center" data-aos="fade-up">
+          <h2 className="section-title font1 ">
+            Our Services
+          </h2>
+          <h4 className="section-subtitle mb-3 font2">
             Technology solutions designed to help you scale
-          </p>
+          </h4>
         </div>
 
-        <div className="row g-4 mt-4">
+        <div className="row g-4">
           {services.map((item, i) => (
-            <div className="col-lg-3 col-md-6" key={i}>
-              <div className="service-card">
-                <h5>{item}</h5>
+            <div className="col-12 col-md-6 col-lg-3" key={i}
+                 data-aos="fade-up" data-aos-delay={i * 100}>
+              <div className="service-card h-100">
+                <h5 className="font2">{item}</h5>
                 <p>
                   Reliable and secure enterprise-level solutions
                   designed for long-term growth.
